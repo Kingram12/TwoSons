@@ -1,11 +1,19 @@
 import React from 'react';
 
 
-//implicit return below 
 
 const Reviews = props => (
-    <h2>Reviews</h2>
+<div className="cust-reviews">
+        <h2>Past Cutomer Experiences</h2>
+        <div className="cust-story"><p>BLakwhdoidjlxkjaodiwjdo Aklsjdlawkjdlajkwljd a</p>
+        <p>BLakwhdoidjlxkjaodiwjdo Aklsjdlawkjdlajkwljd a</p>
+        <p>BLakwhdoidjlxkjaodiwjdo Aklsjdlawkjdlajkwljd a</p>
+        <p>BLakwhdoidjlxkjaodiwjdo Aklsjdlawkjdlajkwljd a</p></div>
+</div>
 );
+
+//flex grid? function to update stories // 
+
 
 export default Reviews;
 

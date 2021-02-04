@@ -16,7 +16,8 @@ header {
 header,
 .nav-buttons,
 .about,
-.footer {
+.footer,
+.cust-reviews {
   color: white;
   font-family: "Raleway", sans-serif;
 }
@@ -95,4 +96,10 @@ a:active {
   display: flex;
   margin-left: 20px;
   justify-content: space-between;
+}
+
+.cust-reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
