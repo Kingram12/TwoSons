@@ -21,15 +21,15 @@ import About from './About';
 export default function SetUpRoutes() {
   return (
     <Router>
-      <div>
-        <ul>
-          <li>
+      <div className="nav">
+        <ul className="nav-buttons">
+          <li className="button">
             <Link to="/currentInventory">Current Inventory</Link>
           </li>
-          <li>
+          <li className="button">
             <Link to="/pastInventory">Past Inventory</Link>
           </li>
-          <li>
+          <li className="button">
             <Link to="/aboutUs">About Us</Link>
           </li>
         </ul>
