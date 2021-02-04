@@ -1,4 +1,5 @@
 import React from "react";
+import ContactUs from "./ContactUs";
 import Header from './Header';
 import Navigation from "./Navigation";
 
@@ -10,6 +11,7 @@ class App extends React.Component {
       <div className="Two-Sons">
 <Header/>
 <Navigation/>
+<ContactUs/>
       </div>
     );
   }

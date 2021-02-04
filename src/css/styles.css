@@ -15,7 +15,8 @@ header {
 
 header,
 .nav-buttons,
-.about {
+.about,
+.footer {
   color: white;
   font-family: "Raleway", sans-serif;
 }
@@ -56,6 +57,11 @@ a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 60px;
+}
+
+.about-ps {
+  width: 80vw;
 }
 .photo-container {
   outline-style: solid;
@@ -65,4 +71,26 @@ a:active {
   width: 852px;
   background-image: url(/src/css/images/FamPhoto.jpg);
   background-size: contain;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0px;
+  background-color: black;
+  width: 100vw;
+}
+
+.contact-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
 }
