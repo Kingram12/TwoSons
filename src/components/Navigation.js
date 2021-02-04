@@ -8,6 +8,7 @@ import {
 import Inventory from './Inventory';
 import Sold from './Sold';
 import About from './About';
+import Reviews from './Reviews';
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
@@ -32,6 +33,9 @@ export default function SetUpRoutes() {
           <li className="button">
             <Link to="/aboutUs">About Us</Link>
           </li>
+          <li className="button">
+            <Link to="/reviews">Reviews</Link>
+          </li>
         </ul>
 
         <hr />
@@ -52,6 +56,9 @@ export default function SetUpRoutes() {
           </Route>
           <Route path="/aboutUs">
             <AboutUs/>
+          </Route>
+          <Route path="/reviews">
+            <CustReviews/>
           </Route>
         </Switch>
       </div>
@@ -87,4 +94,10 @@ function AboutUs() {
   );
 }
 
-
+function CustReviews() {
+  return (
+    <div>
+      <Reviews/>
+    </div>
+  );
+}

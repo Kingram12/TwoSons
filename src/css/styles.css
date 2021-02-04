@@ -28,20 +28,22 @@ header,
 
 .nav-buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   position: absolute;
   top: 230px;
+  padding: 0px;
+  width: 100vw;
 }
 
 .button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px;
   background-color: rgba(0, 0, 0, 0.794);
   height: 40px;
-  width: 30vw;
+  width: 20vw;
   list-style: none;
+  margin: 10px;
 }
 
 a:link,
