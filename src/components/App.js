@@ -1,8 +1,6 @@
 import React from "react";
 import Header from './Header';
 import Navigation from "./Navigation";
-import Inventory from "./Inventory";
-import Sold from "./Sold"
 
 
 class App extends React.Component {
@@ -12,8 +10,6 @@ class App extends React.Component {
       <div className="Two-Sons">
 <Header/>
 <Navigation/>
-<Inventory/>
-<Sold/>
       </div>
     );
   }
