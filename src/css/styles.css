@@ -1,0 +1,17 @@
+header {
+  height: 300px;
+  width: 100vw;
+  background-image: url(/src/css/images/CarHeader.jpg);
+  background-size: 100vw 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 5vw;
+}
+
+.two-sons {
+  padding: 0px;
+  margin: 0px;
+}
