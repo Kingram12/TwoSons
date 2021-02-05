@@ -12,7 +12,7 @@ const Reviews = props => (
 </div>
 );
 
-//flex grid? function to update stories // 
+//flex grid? function to update stories cycle? array w generated index #?// 
 
 
 export default Reviews;
