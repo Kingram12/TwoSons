@@ -3,12 +3,7 @@ import ContactUs from "./ContactUs";
 import Header from './Header';
 import Navigation from "./Navigation";
 
-
 class App extends React.Component {
-  state = {
-    available: {},
-    sold: {},
-  };
 
   addCar = (car) => {
     // 1. Take a copy of the existing state
@@ -18,7 +13,6 @@ class App extends React.Component {
     // 3. Set the new fishes object to state
     this.setState({ cars });
   };
-
 
   render() {
     return (

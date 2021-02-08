@@ -2,20 +2,25 @@ import React from "react";
 import cars from "../cars";
 
 class Inventory extends React.Component {
-  state = {
-    available: {},
-    sold: {},
-  };
+  constructor(props) {
+    super(props);
+    this.state = {available: cars};
+  }
 
-  loadCars = () => {
-    this.setState({ available: cars });
-  };
 
   render() {
+
     return (
-      <div className="inventory">
-        <h2>Inventory</h2>
-        <button onClick={this.loadCars}>Load Inventory</button>
+      <div className="inventory" >
+       {cars.map((car, index) => (
+          <div key={index}>
+            <h3>{car.image}</h3>
+            <p>{car.year}</p>
+            <p>{car.make}</p>
+            <p>{car.model}</p>
+          </div>
+        ))}
+
       </div>
     );
   }

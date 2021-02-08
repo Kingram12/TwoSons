@@ -72,8 +72,7 @@ export default function SetUpRoutes() {
 function CurInv() {
   return (
     <div>
-      <Inventory/>
-    </div>
+      <Inventory/>    </div>
   );
 }
 
