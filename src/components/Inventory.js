@@ -1,12 +1,7 @@
 import React from "react";
-import cars from "../cars";
+import cars from "../AvailableCars";
 
 class Inventory extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {available: cars};
-  }
-
 
   render() {
 
